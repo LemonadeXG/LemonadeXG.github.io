@@ -48,40 +48,62 @@
 						<!-- Dungeon Project -->
 							<article id="DungeonProject">
 								<h1 class="major">Dungeon Project</h1>
-								
+								<h2 class="major">Overview</h2>
+								<p>This project was built in Unreal Engine, and was developed as a showcase of my skills with the blueprinting system, as well as general level design and puzzle mechanics.
+								</p>
+								<h2 class="major">Mechanics</h2>
+								<p>The central mechanic of this game revolves around using light, which was used both to guide the player and to solve puzzles with. The player is given a candle and is tasked with investigating 
+									other light sources to find a way out of the dungeon.
+
+								</p>
 								<h2 class="major">Design Process</h2>
 								<span class="image main"><img src="images/Dungeon/Dungeon01.png" alt="" /></span>
-								<p>The first step in designing this level began in Photoshop. Using an online template, I mapped out the layout of my dungeon, making note of spots where potential areas of interest would go. 
-									One of the more challenging aspects of mapping out this level was deciding where to place the locations of the puzzles I had created.
+								<p>The first step in designing this game began in Photoshop. Using an online template, I mapped out the layout of my dungeon, making note of spots where potential areas of interest would go. 
+									Once I had finished creating a rough draft of my dungeon layout, I designed three puzzles which would serve as the primary obstacles. 
 								</p>
+								<p>The first puzzle required the use of the player's candle to 
+									shoot flames outward so they could observe the environment and find the differences which would enable them to solve the puzzle. The second involved a simple game of finding the right sequence of torches to light. 
+									The final puzzle involved finding their way across a set of rickety wooden planks, with a lava pit below. The trick here was to use either sound cues from the wood or the candle flame to determine which planks were
+									 safe to traverse. 
+									</p>
 								
 								<h2 class="major">Modeling</h2>
 								<span class="image main"><img src="images/Dungeon/Dungeon02.png" alt="" /></span>
 								<p>The next step was to block out the level. I used an asset pack called <a href="https://www.unrealengine.com/marketplace/en-US/product/simple-dungeons">Simple Dungeons</a>
 								 to populate the area with props. To sell the unsettling atmosphere I was shooting for, I designed my level to suggest traces of dark magical cult activity. 
 								</p>
-
+								<p>One of the more challenging aspects of mapping out this level was deciding where to place the locations of the puzzles I had created.
+									The dungeon I had modeled featured a jail area, which felt like a natural fit for the first puzzle as it would neatly section off areas 
+									for the player to observe.
+								</p>
+								<p>As for the second and third puzzles, I felt that the lava pit would be a more climatic experience over the torch puzzle, so I went and ordered it last. The second puzzle being introduced 
+									to the player right at the beginning but being uninteractible helped enforce a sense of mystery to the environment.
+								</p>
 								<h2 class="major">Lighting</h2>
 								<span class="image main"><img src="images/Dungeon/Dungeon03.png" alt="" /></span>
 								<p>I took inspiration from traditional 3D dungeon crawler games for the vibe of this game. I used lighting here to naturally guide the player between the main points 
 									of interest: the shrine, prison, and later the passage into the lava pit. I also created my own custom fog effect for this project to further enhance the lighting, 
-									inreasing the atmosphere in the dungeon. 
+									inreasing the dark atmosphere of the dungeon. 
 								</p>
 
-								<h2 class="major">Puzzles</h2>
+								<h2 class="major">More On Puzzles</h2>
 								<span class="image main"><img src="images/Dungeon/Dungeon05.png" alt="" /></span>
 								<p>In addition to the lighting serving as a guide to the player, I wanted to ensure that the player had clear feedback when attempting puzzles. Visual and auditory clues
 									were placed in the environment to assist the player towards the solution. Unlit candles are present in the cells, blood is splattered in a pattern on the shrine, and boards 
 									creak the wrong way before breaking under the player. I also implemented an additional safety measure, having text popups also appear on-screen if the player becomes lost. 
 								</p>
-								<p>the puzzles were created using Unreal's blueprint system. For this project, using visual scripting helped tremendously in keeping track of mechanics as they were being developed.
-
-								</p>
+								
 
 								<h2 class="major">The Result</h2>
 								<span class="image main"><img src="images/Dungeon/Dungeon04.png" alt="" /></span>
-								<p>The finished product was very close to the original design, nailing the dark and creepy dungeon aesthetic. Lighting and color attracted playtesters to points of interest, and gave them clear indication that there was a puzzle
-									in the area.
+								<p>The finished product was very close to the original design, nailing the dark and creepy dungeon aesthetic. Lighting and color attracted playtesters to points of interest, and 
+									feedback showed that the lighting gave them clear indication that there was a puzzle in the area as intended.
+								</p>
+								<p>One of the sacrifices that I ended up making was in the third puzzle, where I had intended to let the player's candlefire shoot out certain planks as an alternative to using 
+									sound cues to find the correct path. Unfortunately, I ran into several technical issues which prevented me from implementing it with the remaining time I had for this project.
+								</p>
+								<p>As a whole, I was satisfied with where the project had ended up. If I was given additional time to add to this project, I would have liked to create additional alternative solutions 
+									to the puzzles I created.
 								</p>
 								<p><a href="https://youtu.be/Teq4BJHV2ZQ">Watch Demonstration</a></p>
 							</article>
@@ -91,26 +113,30 @@
 								<h1 class="major">Cyber-6</h1>
 								<h2 class="major">About</h2>
 								<span class="image main"><img src="images/Cyber-6/screencap1.png" alt="" /></span>
-								<p>This was a capstone project created from January to June 2022. You play as Cyber-6, a cyborg assassin fresh off of his latest hit. Armed
+								<p>Cyber-6 was a capstone project created from January to June 2022. You play as Cyber-6, a cyborg assassin fresh off of his latest hit. Armed
 									only with his thruster pack, Cyber-6 must shake off the swarm of police drones so that he can make it to extraction.  The game is set in a 
 									futuristic cyberpunk city, where the player must navigate rooftops, dodging obstacles and missiles deployed by the police of this city. 
 								</p>
 
 								<h2 class="major">Responsibilities</h2>
 								<span class="image main"><img src="images/Cyber-6/screencap1.png" alt="" /></span>
-								<p>I was put on the design team for this project. I had the responsibility of creating 3D models for the procedural generation. I was also tasked with
-									creating UI elements like the health bar, dash icons, logo, and score text. I was also involved in implementing post-processing effects to add lighting to the environment. 
+								<p>I was put on the design team for this project, and was also tasked with creating 3D models for the procedural generation of the environment. I was also tasked with
+									creating UI elements such as the health bar, dash icons. I was also involved in implementing post-processing effects to add lighting to the environment. 
 								</p>
 								<p>I also created a trailer for the game, which you can view <a href="https://youtu.be/Teq4BJHV2ZQ">here!</a> the game is set to be featured at this year's Indiecade, and will be 
 									linked here on its official release. 
 								</p>
 
 								<h2 class="major">Challenges</h2>
-								<p>During the development of this game, our team ran into some issues with balance and major changes in our design. Initially, our game was set to use more traditional endless runner mechanics, featuring 
-									a three-lane fixed movement system. However, we found ourselves gravitating towards a more freeform movement system, unrestrained by lanes. 									
+								<p>During the development of this game, our team ran into some issues with balance and major changes in our design. Initially, our game was set to use more traditional endless runner mechanics, including 
+									a three-lane fixed movement system. However, we found ourselves gravitating towards a more freeform movement system unrestrained by lanes, as we felt it fit the game better. 									
 								</p>
-								<p>This created a new set of issues, as we had to create new systems for spawning objects, and redesign obstacles around this new movement. Several movement options ended up cut from development as they no longer made sense 
-									within the project.  
+								<p>This decision created a new set of issues, as we had to create new systems for spawning objects, and redesign obstacles around this new movement. Several movement options ended up cut from development as they no longer made sense 
+									within the project. 
+								</p>
+								<p>
+									We also ran into some challenges with designing enemies that wouldn't feel unfair to the player. Enemies would need to be able to adapt to the generated terrain and still be a threat to the player given the space that the player has to dodge around. 
+									Ultimately, we decided to produce a drone type which would shoot dodgeable missiles at the player.
 								</p>
 							</article>
 
@@ -119,22 +145,23 @@
 								<h1 class="major">Reach for the Sky</h1>
 								<h2 class="major">Design Process</h2>
 								<span class="image main"><img src="images/Board Game/boardgame00.png" alt="" /></span>
-								<p>The prompt for this game was a "race to the finish", with a restriction on using any vehicles as part of the design. 
-									As a result, I planned to simulate the strenuous experience of scaling a mountain. 
+								<p>Reach for the Sky is a board game I developed centered around the prompt of designing a "race to the finish", with a restriction on using any vehicles. 
+									This game's goal was to simulate the strenuous experience of scaling a mountain. 
 								</p>
 
 								<h2 class="major">Mechanics</h2>
 								<span class="image main"><img src="images/Board Game/boardgame01.png" alt="" /></span>
-								<p>The core of the game's design was centered around creating tough challenges which would require smart management of resources for success.
+								<p>The core of the game's design was centered around generating tough challenges as terrain, which would require smart management of resources for success.
 									The game board consists of slots which are filled by a shuffled mountain deck, ensuring that each playthrough will be different. Much like 
 									in actual mountain climbing, careful routing and anticipation are the keys to success. An additional layer of challenge can be found in the map's 
-									cloud layer, which hides the cards on it until someone attempts to cross onto them. This layer also doubles as a catch-up mechanic for players falling behind.  
+									cloud layer, which hides the cards on it until someone attempts to cross onto them. This layer also doubles as a catch-up mechanic for players falling behind as 
+									players at this layer will often face issues with traversal here.  
 								</p>
 
 								<h2 class="major">Movement</h2>
 								<span class="image main"><img src="images/Board Game/boardgame02.png" alt="" /></span>
-								<p>Navigating the board was also designed to reflect the difficulty of scaling a mountain. Players can only carry up to four 
-									movement coins which they spend to move about the map. Moving horizontally is only one coin, whereas vertical movement costs 3 coins. 
+								<p>Navigating the board was also designed to reflect the difficulty of scaling a mountain. In order to move, players must collect and expend movement coins, 
+									with a limit of storing up to four movement coins. Moving horizontally is only one coin, whereas vertical movement costs 3 coins. 
 									In addition to this, the obstacles that are generated by the mountain deck can also be utilized by other players to sabotage their next move.
 								</p>
 
